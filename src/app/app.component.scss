@@ -4,11 +4,18 @@ $header-font: 'Finger Paint', cursive;
   h1  {
     font-size: 2em;
   }
+
+  .image img {
+    width: 300px;
+  }
 }
 
 @media only screen and (min-width: 480px) {
   h1  {
     font-size: 3em;
+  }
+  .image img {
+    width: 400px;
   }
 }
 
