@@ -1,0 +1,22 @@
+$header-font: 'Finger Paint', cursive;
+
+@media only screen and (max-width: 425px) {
+  h1  {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  h1  {
+    font-size: 3em;
+  }
+}
+
+
+h1 {
+  font-family: $header-font;
+}
+
+.content {
+  text-align: center;
+}
